@@ -7,7 +7,12 @@ https://serverproject.de/now.htm
 https://serverproject.de/words.html
 https://serverproject.de/solid/index.html
 https://serverproject.de/solid/main.html
+https://serverproject.de/subscribe.html
+https://serverproject.de/protected_content.html
 https://serverproject.de/solid-info/index.html
+https://serverproject.de/files/solidweb_org_terms.txt
+https://serverproject.de/files/solidweb_me_terms.txt
+https://serverproject.de/files/teamid_live_terms.txt
 https://serverproject.de/sitemap.txt
 https://www.serverproject.de/
 https://www.serverproject.de/about.html
@@ -18,5 +23,10 @@ https://www.serverproject.de/now.htm
 https://www.serverproject.de/words.html
 https://www.serverproject.de/solid/index.html
 https://www.serverproject.de/solid/main.html
+https://www.serverproject.de/subscribe.html
+https://www.serverproject.de/protected_content.html
 https://www.serverproject.de/solid-info/index.html
+https://www.serverproject.de/files/solidweb_org_terms.txt
+https://www.serverproject.de/files/solidweb_me_terms.txt
+https://www.serverproject.de/files/teamid_live_terms.txt
 https://www.serverproject.de/sitemap.txt
