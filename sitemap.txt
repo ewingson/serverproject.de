@@ -6,7 +6,7 @@ https://serverproject.de/contact.html
 https://serverproject.de/now.htm
 https://serverproject.de/words.html
 https://serverproject.de/solid/index.html
-https://serverproject.de/solid/main.html
+https://serverproject.de/solid/main.php
 https://serverproject.de/solid/subscribe.php
 https://serverproject.de/solid/success.php
 https://serverproject.de/solid/protected_content.html
@@ -24,7 +24,7 @@ https://www.serverproject.de/contact.html
 https://www.serverproject.de/now.htm
 https://www.serverproject.de/words.html
 https://www.serverproject.de/solid/index.html
-https://www.serverproject.de/solid/main.html
+https://www.serverproject.de/solid/main.php
 https://www.serverproject.de/solid/subscribe.php
 https://www.serverproject.de/solid/success.php
 https://www.serverproject.de/solid/protected_content.html
