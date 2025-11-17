@@ -1,0 +1,34 @@
+Terms and Conditions *teamid.live*
+
+Admin-C (physical location)
+
+Matthias Evering
+Erlenweg 32
+32049 Herford
+52,1306849N/8,7045487E
+Germany
+
+Technical Details
+
+Version: Pivot 1.6.5
+Host System: Virtual Server, Containervirtualization
+OS: Debian 12.9, Kernel 6.1.99-1 (I think)
+Hardware: 1 vCore, 2GB RAM, 40GB SSD
+SSL handled by letsencrypt.org
+allowed Quota: 70 MB
+Server location: Strasbourg
+Running since: Sun Jun 25 23:59:59 2023
+
+Info
+
+Jurisdictional Info: Germany, EU, Global
+assured Right to create, move and delete
+
+Project
+
+https://solidproject.org
+https://github.com/solid
+
+----
+
+experimental software.
