@@ -10,7 +10,7 @@ Germany
 
 Technical Details
 
-Version: Pivot 1.6.5
+Version: Pivot 1.6.4
 Host System: Virtual Server, Containervirtualization
 OS: Debian 12.9, Kernel 6.1.99-1 (I think)
 Hardware: 1 vCore, 2GB RAM, 40GB SSD
