@@ -10,7 +10,7 @@ Germany
 
 Technical Details
 
-Version: NSS 5.8.5
+Version: NSS 6.0.0
 Host System: Virtual Server, Containervirtualization
 OS: Debian 10.13, Kernel 4.19.316-1
 Hardware: 2 vCores, 2GB RAM, 100GB SSD
