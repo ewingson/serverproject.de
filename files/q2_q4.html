@@ -1,0 +1,375 @@
+<!-- location: https://serverproject.de/files/q2_q4.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Finanzprognose 2026 — Quartale</title>
+<style>
+  body { font-family: Calibri, Arial, sans-serif; font-size: 12px; background: #f5f5f5; padding: 20px; }
+  h2   { color: #1F497D; margin-bottom: 4px; }
+  .note { font-size: 10px; color: #666; font-style: italic; margin-bottom: 12px; }
+
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #ccc; padding: 4px 7px; white-space: nowrap; }
+
+  /* Header rows */
+  .hdr-main th {
+    background: #1F497D; color: #fff; text-align: center;
+    font-size: 11px; line-height: 1.3;
+  }
+
+  /* Section headers */
+  .sec-a  td { background: #C00000; color: #fff; font-weight: bold; font-size: 11px; }
+  .sec-e  td { background: #1A472A; color: #fff; font-weight: bold; font-size: 11px; }
+  .sec-bl td { background: #1F3864; color: #fff; font-weight: bold; font-size: 11px; }
+
+  /* Data rows — Ausgaben */
+  .fix-a  { background: #DDEEFF; }
+  .var-a  { background: #F2F2F2; }
+  .var-a2 { background: #FFFFFF; }
+  .none-a { background: #EFEFEF; }
+
+  /* Data rows — Einnahmen */
+  .fix-e  { background: #DDEEFF; }
+  .var-e  { background: #E2EFDA; }
+  .var-e2 { background: #FFFFFF; }
+  .none-e { background: #EFEFEF; }
+
+  /* Backup row */
+  .backup { background: #FFF2CC; }
+
+  /* Total rows */
+  .total-a td { background: #C00000; color: #fff; font-weight: bold; }
+  .total-e td { background: #1A472A; color: #fff; font-weight: bold; }
+
+  /* Bilanz rows */
+  .bilanz td { background: #D6DCE4; font-weight: bold; color: #1F3864; }
+
+  /* Warning / OK row */
+  .warn td   { background: #FFE0E0; color: #C00000; font-weight: bold; text-align: center; }
+
+  /* Number alignment */
+  .num { text-align: right; }
+  .ctr { text-align: center; }
+  .lft { text-align: left; }
+
+  /* Colour of negative numbers in A rows */
+  .neg { color: #C00000; }
+  /* Colour of positive numbers in E rows */
+  .pos { color: #006100; }
+  /* Bilanz result colours */
+  .b-neg { color: #C00000; font-weight: bold; }
+  .b-pos { color: #006100; font-weight: bold; }
+
+  /* YoY colours */
+  .yoy-pos { color: #006100; }
+  .yoy-neg { color: #C00000; }
+
+  /* Type badge */
+  .badge-fix  { background:#1F497D; color:#fff; border-radius:3px; padding:1px 4px; font-size:9px; }
+  .badge-var  { background:#595959; color:#fff; border-radius:3px; padding:1px 4px; font-size:9px; }
+  .badge-none { background:#AAAAAA; color:#fff; border-radius:3px; padding:1px 4px; font-size:9px; }
+
+  .anm { color: #555; font-size: 10px; font-style: italic; }
+</style>
+</head>
+<body>
+
+<h2>📊 Finanzprognose 2026 — Quartalsansicht &nbsp;|&nbsp; Fix / Variabel / Neutral</h2>
+<p class="note">
+  Q1 = Ist-Werte aus q126.ods &nbsp;·&nbsp;
+  Q2–Q4 = Prognose &nbsp;·&nbsp;
+  Raten: 1.100 € ÷ 9 Monate = 122,22 €/M (Apr–Dez) &nbsp;·&nbsp;
+  Backup: 10 €/M &nbsp;·&nbsp;
+  Miete: fix 347,50 €/M (Dez-Vorauszahlung korrigiert)
+</p>
+
+<table>
+  <thead>
+    <tr class="hdr-main">
+      <th class="lft" style="width:160px">Kategorie</th>
+      <th style="width:40px">Typ</th>
+      <th style="width:90px">Q1 2026<br>Ist (€)</th>
+      <th style="width:90px">Q2<br>Apr–Jun (€)</th>
+      <th style="width:90px">Q3<br>Jul–Sep (€)</th>
+      <th style="width:90px">Q4<br>Okt–Dez (€)</th>
+      <th style="width:100px">Jahres-<br>summe (€)</th>
+      <th style="width:80px">Basis<br>€/Monat</th>
+      <th style="width:80px">Hist. ∅<br>€/Monat</th>
+      <th style="width:60px">YoY<br>vs 2025</th>
+      <th class="lft">Anmerkung</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- ═══ AUSGABEN ═══════════════════════════════════════════════════ -->
+    <tr class="sec-a"><td colspan="11">▼&nbsp; AUSGABEN (A –) &nbsp;—&nbsp; FIX · VARIABEL · NEUTRAL</td></tr>
+
+    <!-- FIX -->
+    <tr class="fix-a">
+      <td class="lft">Miete</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num neg">−1.042,50 €</td><td class="num neg">−1.042,50 €</td><td class="num neg">−1.042,50 €</td><td class="num neg">−1.042,50 €</td>
+      <td class="num neg">−4.170,00 €</td><td class="num">−347,50 €</td><td class="num">−329,07 €</td>
+      <td class="ctr yoy-neg">−7,0 %</td><td class="anm">347,50 €/M fix</td>
+    </tr>
+    <tr class="fix-a">
+      <td class="lft">Strom</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num neg">−90,00 €</td><td class="num neg">−120,00 €</td><td class="num neg">−120,00 €</td><td class="num neg">−120,00 €</td>
+      <td class="num neg">−450,00 €</td><td class="num">−40,00 €</td><td class="num">−44,82 €</td>
+      <td class="ctr yoy-neg">−12,5 %</td><td class="anm">40 €/M fix</td>
+    </tr>
+    <tr class="fix-a">
+      <td class="lft">Smoke</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num">0,00 €</td><td class="num neg">−840,00 €</td><td class="num neg">−840,00 €</td><td class="num neg">−840,00 €</td>
+      <td class="num neg">−2.520,00 €</td><td class="num">−280,00 €</td><td class="num">−196,36 €</td>
+      <td class="ctr yoy-neg">−289,1 %</td><td class="anm">280 €/M fix · Q1=0</td>
+    </tr>
+    <tr class="fix-a">
+      <td class="lft">Flatrate</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num neg">−127,09 €</td><td class="num neg">−120,58 €</td><td class="num neg">−120,58 €</td><td class="num neg">−120,58 €</td>
+      <td class="num neg">−488,84 €</td><td class="num">−40,19 €</td><td class="num">−36,94 €</td>
+      <td class="ctr yoy-pos">+12,5 %</td><td class="anm">Fixkosten</td>
+    </tr>
+    <tr class="fix-a">
+      <td class="lft">Kontoführung</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num neg">−44,42 €</td><td class="num neg">−42,23 €</td><td class="num neg">−42,23 €</td><td class="num neg">−42,23 €</td>
+      <td class="num neg">−171,10 €</td><td class="num">−14,08 €</td><td class="num">−12,98 €</td>
+      <td class="ctr yoy-neg">−3,0 %</td><td class="anm">Fixkosten</td>
+    </tr>
+    <tr class="fix-a">
+      <td class="lft">Mobilfunk</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num neg">−45,00 €</td><td class="num neg">−45,00 €</td><td class="num neg">−45,00 €</td><td class="num neg">−45,00 €</td>
+      <td class="num neg">−180,00 €</td><td class="num">−15,00 €</td><td class="num">−12,47 €</td>
+      <td class="ctr yoy-neg">−24,1 %</td><td class="anm">15 €/M fix</td>
+    </tr>
+    <tr class="fix-a">
+      <td class="lft">Fahrgeld fix</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num neg">−65,60 €</td><td class="num neg">−98,40 €</td><td class="num neg">−98,40 €</td><td class="num neg">−98,40 €</td>
+      <td class="num neg">−360,80 €</td><td class="num">−32,80 €</td><td class="num">−4,08 €</td>
+      <td class="ctr">—</td><td class="anm">32,80 €/M fix</td>
+    </tr>
+    <tr class="fix-a">
+      <td class="lft">Versicherung</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num neg">−41,88 €</td><td class="num neg">−37,00 €</td><td class="num neg">−37,00 €</td><td class="num neg">−37,00 €</td>
+      <td class="num neg">−152,87 €</td><td class="num">−12,33 €</td><td class="num">−9,89 €</td>
+      <td class="ctr yoy-neg">−21,7 %</td><td class="anm">Fixkosten</td>
+    </tr>
+    <tr class="fix-a">
+      <td class="lft">Kaffee home</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num neg">−19,00 €</td><td class="num neg">−21,00 €</td><td class="num neg">−21,00 €</td><td class="num neg">−21,00 €</td>
+      <td class="num neg">−82,00 €</td><td class="num">−7,00 €</td><td class="num">−2,77 €</td>
+      <td class="ctr yoy-neg">−182,8 %</td><td class="anm">7 €/M fix</td>
+    </tr>
+
+    <!-- VAR -->
+    <tr class="var-a">
+      <td class="lft">Raten</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−961,11 €</td><td class="num neg">−366,67 €</td><td class="num neg">−366,67 €</td><td class="num neg">−366,67 €</td>
+      <td class="num neg">−2.061,11 €</td><td class="num">−122,22 €</td><td class="num">−73,78 €</td>
+      <td class="ctr yoy-pos">+32,5 %</td><td class="anm">Rest 1.100 € ÷ 9 M = 122,22 €/M</td>
+    </tr>
+    <tr class="var-a2">
+      <td class="lft">Food</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−533,43 €</td><td class="num neg">−507,82 €</td><td class="num neg">−507,82 €</td><td class="num neg">−507,82 €</td>
+      <td class="num neg">−2.056,90 €</td><td class="num">−169,27 €</td><td class="num">−156,47 €</td>
+      <td class="ctr yoy-pos">+13,6 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a">
+      <td class="lft">Provider</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−270,56 €</td><td class="num neg">−219,81 €</td><td class="num neg">−219,81 €</td><td class="num neg">−219,81 €</td>
+      <td class="num neg">−929,99 €</td><td class="num">−73,27 €</td><td class="num">−47,89 €</td>
+      <td class="ctr yoy-pos">+14,0 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a2">
+      <td class="lft">Bier</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−145,21 €</td><td class="num neg">−134,88 €</td><td class="num neg">−134,88 €</td><td class="num neg">−134,88 €</td>
+      <td class="num neg">−549,86 €</td><td class="num">−44,96 €</td><td class="num">−39,80 €</td>
+      <td class="ctr yoy-pos">+4,9 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a">
+      <td class="lft">Nonsense</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−87,40 €</td><td class="num neg">−91,28 €</td><td class="num neg">−91,28 €</td><td class="num neg">−91,28 €</td>
+      <td class="num neg">−361,24 €</td><td class="num">−30,43 €</td><td class="num">−32,37 €</td>
+      <td class="ctr yoy-pos">+3,2 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a2">
+      <td class="lft">Essentials</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−81,12 €</td><td class="num neg">−86,22 €</td><td class="num neg">−86,22 €</td><td class="num neg">−86,22 €</td>
+      <td class="num neg">−339,78 €</td><td class="num">−28,74 €</td><td class="num">−31,29 €</td>
+      <td class="ctr yoy-neg">−60,6 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a">
+      <td class="lft">Technik</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−82,84 €</td><td class="num neg">−79,78 €</td><td class="num neg">−79,78 €</td><td class="num neg">−79,78 €</td>
+      <td class="num neg">−322,18 €</td><td class="num">−26,59 €</td><td class="num">−25,06 €</td>
+      <td class="ctr yoy-neg">−29,4 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a2">
+      <td class="lft">Fortbildungen</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−84,90 €</td><td class="num neg">−61,97 €</td><td class="num neg">−61,97 €</td><td class="num neg">−61,97 €</td>
+      <td class="num neg">−270,81 €</td><td class="num">−20,66 €</td><td class="num">−9,19 €</td>
+      <td class="ctr yoy-neg">−64,1 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a">
+      <td class="lft">Fachliteratur</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−75,98 €</td><td class="num neg">−53,10 €</td><td class="num neg">−53,10 €</td><td class="num neg">−53,10 €</td>
+      <td class="num neg">−235,28 €</td><td class="num">−17,70 €</td><td class="num">−6,26 €</td>
+      <td class="ctr yoy-neg">−92,1 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a2">
+      <td class="lft">Bekl/UW/Schuhe</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−98,90 €</td><td class="num neg">−70,20 €</td><td class="num neg">−70,20 €</td><td class="num neg">−70,20 €</td>
+      <td class="num neg">−309,50 €</td><td class="num">−23,40 €</td><td class="num">−9,05 €</td>
+      <td class="ctr yoy-neg">−189,4 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a">
+      <td class="lft">Spenden</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−18,53 €</td><td class="num neg">−21,94 €</td><td class="num neg">−21,94 €</td><td class="num neg">−21,94 €</td>
+      <td class="num neg">−84,34 €</td><td class="num">−7,31 €</td><td class="num">−9,02 €</td>
+      <td class="ctr yoy-neg">−36,9 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-a2">
+      <td class="lft">Kaffee work</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num neg">−19,50 €</td><td class="num neg">−13,39 €</td><td class="num neg">−13,39 €</td><td class="num neg">−13,39 €</td>
+      <td class="num neg">−59,68 €</td><td class="num">−4,46 €</td><td class="num">−1,41 €</td>
+      <td class="ctr yoy-neg">−98,9 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+
+    <!-- NONE -->
+    <tr class="none-a">
+      <td class="lft">Abhebung Bank</td><td class="ctr"><span class="badge-none">—</span></td>
+      <td class="num" style="color:#555">−125,00 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td>
+      <td class="num" style="color:#555">−125,00 €</td><td class="num" style="color:#555">−63,75 €</td><td class="num" style="color:#555">−96,87 €</td>
+      <td class="ctr">+87,3 %</td><td class="anm">Neutral · Q2–Q4=0</td>
+    </tr>
+    <tr class="none-a">
+      <td class="lft">Umbuchung</td><td class="ctr"><span class="badge-none">—</span></td>
+      <td class="num" style="color:#555">−640,78 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td>
+      <td class="num" style="color:#555">−640,78 €</td><td class="num" style="color:#555">−172,63 €</td><td class="num" style="color:#555">−111,19 €</td>
+      <td class="ctr">+62,4 %</td><td class="anm">Neutral · Q2–Q4=0</td>
+    </tr>
+    <tr class="none-a">
+      <td class="lft">Meisdata</td><td class="ctr"><span class="badge-none">—</span></td>
+      <td class="num" style="color:#555">−82,88 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td>
+      <td class="num" style="color:#555">−82,88 €</td><td class="num" style="color:#555">−22,25 €</td><td class="num" style="color:#555">−14,18 €</td>
+      <td class="ctr">+58,1 %</td><td class="anm">Neutral · Q2–Q4=0</td>
+    </tr>
+
+    <!-- Backup -->
+    <tr class="backup">
+      <td class="lft" style="font-weight:bold;color:#7B5600">Backup (Sparanteil)</td>
+      <td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num pos">0,00 €</td><td class="num pos">+30,00 €</td><td class="num pos">+30,00 €</td><td class="num pos">+30,00 €</td>
+      <td class="num pos">+90,00 €</td><td class="num">+10,00 €</td><td class="num">+10,00 €</td>
+      <td class="ctr">—</td><td class="anm">fix 10 €/M · Sparrücklage</td>
+    </tr>
+
+    <!-- Total Ausgaben -->
+    <tr class="total-a">
+      <td class="lft" colspan="2">TOTAL AUSGABEN</td>
+      <td class="num">−4.783,63 €</td><td class="num">−4.073,77 €</td><td class="num">−4.073,77 €</td><td class="num">−4.073,77 €</td>
+      <td class="num">−17.004,94 €</td><td></td><td></td><td></td><td></td>
+    </tr>
+
+    <!-- ═══ EINNAHMEN ══════════════════════════════════════════════════ -->
+    <tr class="sec-e"><td colspan="11">▼&nbsp; EINNAHMEN (E –) &nbsp;—&nbsp; FIX · VARIABEL · NEUTRAL</td></tr>
+
+    <tr class="fix-e">
+      <td class="lft">Sozialamt</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num pos">+1.908,41 €</td><td class="num pos">+1.815,59 €</td><td class="num pos">+1.815,59 €</td><td class="num pos">+1.815,59 €</td>
+      <td class="num pos">+7.355,18 €</td><td class="num">+605,20 €</td><td class="num">+558,79 €</td>
+      <td class="ctr yoy-neg">−1,8 %</td><td class="anm">Fixkosten</td>
+    </tr>
+    <tr class="fix-e">
+      <td class="lft">Rente</td><td class="ctr"><span class="badge-fix">FIX</span></td>
+      <td class="num pos">+1.060,25 €</td><td class="num pos">+981,20 €</td><td class="num pos">+981,20 €</td><td class="num pos">+981,20 €</td>
+      <td class="num pos">+4.003,84 €</td><td class="num">+327,07 €</td><td class="num">+287,54 €</td>
+      <td class="ctr yoy-neg">−2,9 %</td><td class="anm">Fixkosten</td>
+    </tr>
+    <tr class="var-e">
+      <td class="lft">Lohn</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num pos">+313,74 €</td><td class="num pos">+323,98 €</td><td class="num pos">+323,98 €</td><td class="num pos">+323,98 €</td>
+      <td class="num pos">+1.285,67 €</td><td class="num">+107,99 €</td><td class="num">+113,11 €</td>
+      <td class="ctr yoy-neg">−3,8 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-e2">
+      <td class="lft">Privat</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num pos">+294,00 €</td><td class="num pos">+297,11 €</td><td class="num pos">+297,11 €</td><td class="num pos">+297,11 €</td>
+      <td class="num pos">+1.185,34 €</td><td class="num">+99,04 €</td><td class="num">+100,59 €</td>
+      <td class="ctr yoy-neg">−14,1 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-e">
+      <td class="lft">Reimbursement</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num pos">+72,02 €</td><td class="num pos">+72,16 €</td><td class="num pos">+72,16 €</td><td class="num pos">+72,16 €</td>
+      <td class="num pos">+288,51 €</td><td class="num">+24,05 €</td><td class="num">+24,13 €</td>
+      <td class="ctr yoy-pos">+46,0 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-e2">
+      <td class="lft">Spende teamid</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num pos">+71,71 €</td><td class="num pos">+62,07 €</td><td class="num pos">+62,07 €</td><td class="num pos">+62,07 €</td>
+      <td class="num pos">+257,91 €</td><td class="num">+20,69 €</td><td class="num">+15,87 €</td>
+      <td class="ctr yoy-pos">+35,5 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="var-e">
+      <td class="lft">Sonstiges</td><td class="ctr"><span class="badge-var">VAR</span></td>
+      <td class="num pos">+29,12 €</td><td class="num pos">+76,23 €</td><td class="num pos">+76,23 €</td><td class="num pos">+76,23 €</td>
+      <td class="num pos">+257,82 €</td><td class="num">+25,41 €</td><td class="num">+48,97 €</td>
+      <td class="ctr yoy-neg">−47,6 %</td><td class="anm">60% Q1 + 40% Hist.</td>
+    </tr>
+    <tr class="none-e">
+      <td class="lft">Einzahlung Kasse</td><td class="ctr"><span class="badge-none">—</span></td>
+      <td class="num" style="color:#555">+125,00 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td>
+      <td class="num" style="color:#555">+125,00 €</td><td class="num" style="color:#555">+63,29 €</td><td class="num" style="color:#555">+95,72 €</td>
+      <td class="ctr">−87,4 %</td><td class="anm">Neutral · Q2–Q4=0</td>
+    </tr>
+    <tr class="none-e">
+      <td class="lft">Umbuchung</td><td class="ctr"><span class="badge-none">—</span></td>
+      <td class="num" style="color:#555">+640,78 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td><td class="num" style="color:#555">0,00 €</td>
+      <td class="num" style="color:#555">+640,78 €</td><td class="num" style="color:#555">+172,77 €</td><td class="num" style="color:#555">+111,52 €</td>
+      <td class="ctr">−62,8 %</td><td class="anm">Neutral · Q2–Q4=0</td>
+    </tr>
+
+    <!-- Total Einnahmen -->
+    <tr class="total-e">
+      <td class="lft" colspan="2">TOTAL EINNAHMEN</td>
+      <td class="num">+4.515,03 €</td><td class="num">+3.628,34 €</td><td class="num">+3.628,34 €</td><td class="num">+3.628,34 €</td>
+      <td class="num">+15.400,05 €</td><td></td><td></td><td></td><td></td>
+    </tr>
+
+    <!-- ═══ BILANZ ═══════════════════════════════════════════════════ -->
+    <tr class="sec-bl"><td colspan="11">▼&nbsp; BILANZ</td></tr>
+
+    <tr class="bilanz">
+      <td class="lft" colspan="2">Ergebnis je Quartal</td>
+      <td class="num b-neg">−268,60 €</td>
+      <td class="num b-neg">−445,43 €</td>
+      <td class="num b-neg">−445,43 €</td>
+      <td class="num b-neg">−445,43 €</td>
+      <td class="num b-neg">−1.604,89 €</td>
+      <td></td><td></td><td></td><td></td>
+    </tr>
+    <tr class="bilanz">
+      <td class="lft" colspan="2">Anfangsbestand 01.01.2026</td>
+      <td class="num b-pos">+952,05 €</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr class="bilanz">
+      <td class="lft" colspan="2">Endbestand 31.12.2026 (Prognose)</td>
+      <td></td><td></td><td></td><td></td>
+      <td class="num b-neg" style="font-size:13px">−652,84 €</td>
+      <td></td><td></td><td></td><td></td>
+    </tr>
+
+    <!-- Warning -->
+    <tr class="warn">
+      <td colspan="11">
+        ⚠&nbsp; Endbestand negativ: −652,84 €&nbsp;&nbsp;|&nbsp;&nbsp;
+        Haupttreiber: Smoke Q2–Q4 (−2.520 €) + Raten-Rest (−1.100 €)
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+</body>
+</html>
