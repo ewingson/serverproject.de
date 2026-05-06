@@ -10,7 +10,7 @@ Germany
 
 Technical Details
 
-Version: JSS 0.0.165
+Version: JSS 0.0.166
 mashlib 2.2.0
 Host System: Virtual Server, Containervirtualization
 OS: Debian 13.4, Kernel 6.12.74
