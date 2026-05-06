@@ -13,7 +13,7 @@ Technical Details
 Version: CSS 7.1.9
 mashlib 2.2.0
 Host System: Virtual Server, Containervirtualization
-OS: Debian 10.13, Kernel 4.19.316-1
+OS: Debian 10.13, Kernel 4.19.0-27
 Hardware: 2 vCores, 2GB RAM, 100GB SSD
 SSL handled by letsencrypt.org
 allowed Quota: 50 MB
