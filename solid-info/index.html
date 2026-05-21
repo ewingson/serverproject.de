@@ -1,0 +1,49 @@
+<!-- extended Solid info -->
+<!-- based on Noel's code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Solid Info App</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+    <main>
+        <h1>Solid show some triples' objects</h1>
+
+        <!-- Shown while the session is being checked -->
+        <div id="loading">
+            <p>Initializing session...</p>
+        </div>
+
+        <!-- Shown only to logged-out users -->
+        <div id="auth-guest" hidden>
+            <p>You are not logged in. Please log in to continue.</p>
+            <button id="login-button">Login with your Idp</button>
+        </div>
+
+        <!-- Shown only to logged-in users -->
+        <div id="auth-user" hidden>
+            <p>Hello, <strong id="username"></strong>!</p>
+            <p>your webid : <strong id = "webid"></strong></p>
+            <p>your formatted name, if set : <strong id = "fn"></strong></p>
+            <p>your preferences file : <strong id = "pref"></strong></p>
+            <p>your publicTypeIndex : <strong id = "pubind"></strong></p>
+            <p>your privateTypeIndex : <strong id = "privind"></strong></p>
+            <p>your root storage : <strong id = "root"></strong></p>
+            <button id="logout-button">Log out</button>
+        </div>
+        <br /><br /><br /><br /><br /><br />
+        <div align = "center"><a href = "https://github.com/ewingson/solid-info">code</a></div>
+    </main>
+
+    <!--
+      The necessary libraries, using the current versions from august 2025.
+      The order is critical: Libraries first, then our application logic.
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/@inrupt/solid-client-authn-browser@3.1.0/dist/solid-client-authn.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/n3@1.26.0/browser/n3.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
