@@ -11,7 +11,7 @@ Germany
 Technical Details
 
 Version: Pivot 1.8.0
-mashlib 2.2.0
+mashlib 2.2.1
 Host System: Virtual Server, Containervirtualization
 OS: Debian 12.13, Kernel 6.1.0-23 (I think)
 Hardware: 1 vCore, 2GB RAM, 40GB SSD
