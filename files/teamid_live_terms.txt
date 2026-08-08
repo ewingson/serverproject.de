@@ -10,7 +10,7 @@ Germany
 
 Technical Details
 
-Version: Pivot 1.8.0
+Version: Pivot 1.8.1
 mashlib 2.2.2
 Host System: Virtual Server, Containervirtualization
 OS: Debian 12.13, Kernel 6.1.0-23 (I think)

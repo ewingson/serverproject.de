@@ -10,8 +10,8 @@ Germany
 
 Technical Details
 
-Version: CSS 7.1.9
-mashlib 2.1.3
+Version: CSS 7.2.0
+mashlib 2.2.2
 Host System: Virtual Server, Containervirtualization
 OS: Debian 10.13, Kernel 4.19.0-27
 Hardware: 2 vCores, 2GB RAM, 100GB SSD
