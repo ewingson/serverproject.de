@@ -1,58 +1,60 @@
-
-<!-- this -->
-<!doctype html>
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>solid pod provider</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solid on Trixie</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 880px;
+           margin: 4rem auto; padding: 1rem; line-height: 1.65; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 2rem; border-bottom: 1px solid #eee;
+         padding-bottom: .3rem; }
+    ul { padding-left: 1.2rem; }
+    a  { color: #1a73e8; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: .9em; }
+  </style>
 </head>
 <body>
-<style>
-a:hover {color: red;}
-a
-{
-color: blue;
-text-decoration-line: underline;
-text-decoration-color: red;
-}
-body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: black;
-}
-</style>
-<div align = "center">
-<h2>solid pod provider</h2>
-<ul>
-<li><a href = "https://start.inrupt.com/">https://start.inrupt.com/</a></li>
-<li><a href = "https://solidcommunity.net/">https://solidcommunity.net/</a></li>
-<li><a href = "https://solidweb.org/">https://solidweb.org/</a></li>
-<li><a href = "https://solid.open.ac.uk/">https://solid.open.ac.uk/</a></li>
-<li><a href = "https://solid.openlinksw.com:8444/">https://solid.openlinksw.com:8444/</a></li>
-<li><a href = "https://solid.openlinksw.com:8445/">https://solid.openlinksw.com:8445/</a></li>
-<li><a href = "https://trinpod.us/">https://trinpod.us/</a></li>
-<li><a href = "https://trinpod.eu/">https://trinpod.eu/</a></li>
-<li><a href = "https://solidweb.me/">https://solidweb.me/</a></li>
-<li><a href = "https://solid.aifb.kit.edu/">https://solid.aifb.kit.edu/</a></li>
-<li><a href = "https://datapod.igrant.io/">https://datapod.igrant.io/</a></li>
-<li><a href = "https://solid.redpencil.io/">https://solid.redpencil.io/</a></li>
-<li><a href = "https://teamid.live/">https://teamid.live/</a></li>
-<li><a href = "https://solidcommunity.au/">https://solidcommunity.au/</a></li>
-<li><a href = "https://solid.social/">https://solid.social/</a></li>
-<li><a href = "https://pod.liquid.surf/">https://pod.liquid.surf/</a></li>
-<li><a href = "https://privatedatapod.com/">https://privatedatapod.com/</a></li>
-<li><a href = "https://dev.solid.redpencil.io/">https://dev.solid.redpencil.io/</a></li>
-<li><a href = "https://solidweb.app/">https://solidweb.app/</a></li>
-<li><a href = "https://www.brolly.id/">https://www.brolly.id/</a></li>
-<li><a href = "https://wiser-solid-xi.interactions.ics.unisg.ch/">https://wiser-solid-xi.interactions.ics.unisg.ch/</a></li>
-<li><a href = "https://pivot-test.solidproject.org:8443/">https://pivot-test.solidproject.org:8443/</a></li>
-<li><a href = "https://pivot-test.solidproject.org:3000/">https://pivot-test.solidproject.org:3000/</a></li>
-<li><a href = "https://pivot-test.solidproject.org:3100/">https://pivot-test.solidproject.org:3100/</a></li>
-<li><a href = "https://solid.live/">https://solid.live/</a></li>
-<li><a href = "https://solid-01.muze.nl/">https://solid-01.muze.nl/</a></li>
-<li><a href = "https://nodezero.social/">https://nodezero.social/</a></li>
-</ul>
-<br /><br />
-<h2><a href="./list/">the app</a></h2> 
-<br /><br />
-</div>
-<a href = "https://w3c.social/@ewingson"><img src = "https://serverproject.de/pics/mastodon.png" width = 25 height = 25 alt = "w3c.social/@ewingson"></a>
+  <h1>Solid on Trixie, Bookworm and Buster — Test Environment</h1>
+  <p>Four <a href="https://solidproject.org">Solid</a> server implementations
+     on Debian, managed by <a href="https://pm2.io">PM2</a>,
+     fronted by <a href="https://nginx.org/">Nginx</a>.</p>
+
+  <h2>Production servers (subdomain and suffix)</h2>
+  <ul>
+    <li><a href="https://solidweb.org">solidweb.org</a>
+        — <a href="https://github.com/nodeSolidServer/node-solid-server">Node Solid Server</a>
+        — pods at <code>alice.solidweb.org</code> on Debian 10 <a href = "https://www.debian.org/releases/buster/">Buster</a></li>
+    <li><a href="https://solidweb.me">solidweb.me</a>
+        — <a href="https://github.com/CommunitySolidServer/CommunitySolidServer">Community Solid Server</a>
+        — pods at <code>solidweb.me/alice/</code> (historical reasons) on Debian 10 <a href = "https://www.debian.org/releases/buster/">Buster</a></li>
+    <li><a href="https://teamid.live">teamid.live</a>
+        — <a href="https://github.com/solid-contrib/pivot">Solid Pivot Server</a>
+        — pods at <code>teamid.live/alice/</code> on Debian 12 <a href = "https://www.debian.org/releases/bookworm/">Bookworm</a></li>
+    <li><a href="https://solidweb.app">solidweb.app</a>
+        — <a href="https://javascriptsolidserver.github.io/docs/">JavaScript Solid Server</a>
+        — pods at <code>alice.solidweb.app</code> on Debian 13 <a href = "https://www.debian.org/releases/trixie/">Trixie</a></li>
+  </ul>
+
+  <h2>Test endpoints / IPs of root machines</h2>
+  <ul>
+    <li><a href="https://tools.keycdn.com/geo?host=46.163.118.221">46.163.118.221</a> — NSS and CSS</li>
+    <li><a href="https://tools.keycdn.com/geo?host=92.205.21.120">92.205.21.120</a> — Pivot</li>
+    <li><a href="https://tools.keycdn.com/geo?host=92.205.60.157">92.205.60.157</a> — JSS</li>
+    
+  </ul>
+
+  <h2>Infrastructure</h2>
+  <ul>
+    <li><a href="https://status.solidweb.app">status.solidweb.app</a> — Uptime Kuma (auth required)</li>
+    <li><a href="https://monitor.solidweb.app">monitor.solidweb.app</a> — Netdata (auth required)</li>
+  </ul>
+  
+  <h2>Maturity audit</h2>
+  <ul>
+    <li><a href="./list/">known Pod providers</a> — Details about stuff in the wild</li>    
+  </ul>
 </body>
 </html>
