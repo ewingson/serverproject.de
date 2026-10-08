@@ -10,8 +10,8 @@ Germany
 
 Technical Details
 
-Version: Pivot 1.8.1
-mashlib 2.2.2
+Version: Pivot 1.8.2
+mashlib 3.0.0
 Host System: Virtual Server, Containervirtualization
 OS: Debian 12.13, Kernel 6.1.0-23 (I think)
 Hardware: 1 vCore, 2GB RAM, 40GB SSD
