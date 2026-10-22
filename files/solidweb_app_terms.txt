@@ -10,10 +10,10 @@ Germany
 
 Technical Details
 
-Version: JSS 0.0.220
+Version: JSS 0.0.222
 mashlib 3.0.0
 Host System: Virtual Server, Containervirtualization
-OS: Debian 13.4, Kernel 6.12.74
+OS: Debian 13.7, Kernel 6.12.74-2 (2026-03-08) x86_64
 Hardware: 4 vCores, 8GB RAM, 200GB SSD
 SSL handled by letsencrypt.org
 allowed Quota: 100 MB
